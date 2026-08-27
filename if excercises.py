@@ -25,7 +25,7 @@ def main():
     op = parts[1]
     numb2 = float(parts[2])
 
-    if op == "+":
+     if op == "+":
              print(numb2+numb1)
      elif op == "-":
              print(numb1-numb2)
