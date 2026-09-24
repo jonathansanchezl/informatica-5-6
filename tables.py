@@ -15,7 +15,5 @@ def main():
         else:
             print("type what you want to do between another or exit")
 
-
-
 if __name__ == "__main__":
     main()
