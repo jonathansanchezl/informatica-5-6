@@ -1,0 +1,6 @@
+a while loop repeats until a condition is met,
+ a for loop does a sequence of especified values,
+  a while loop can repeat to the infinite,
+   a for loop will end when the sequence ends
+   while loops cand do everything that a for loop can do, but sometimes a for loop is more practical
+   
