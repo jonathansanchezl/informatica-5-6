@@ -7,3 +7,19 @@
 #   keep asking until the word is complete or the opportunities are gone
 #
 #
+import random
+def main():
+    def start_game():
+        #tun file into a list
+        wordslist = []
+        with open ("words.txt") as words:
+            for line in words:
+                line = line.replace("\n","")
+                wordslist.append(line)
+            word_selected = random.choice(wordslist)
+            print(word_selected)
+    start_game()
+
+
+if __name__ == "__main__":
+    main()
