@@ -18,6 +18,15 @@ def main():
                 wordslist.append(line)
             word_selected = random.choice(wordslist)
             print(word_selected)
+            letters = list(word_selected)
+            print("_ "* len(letters))
+            while True:
+                guess = input("Guess a letter: ")
+                for i in letters:
+                    if i == guess:
+                        print("correct")
+
+
     start_game()
 
 
